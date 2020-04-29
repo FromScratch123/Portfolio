@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" 
+  content="">
+  <meta rel="canonical" href="">
+  <title>Tatsuya Yamamoto</title>
+<!-- jQuery CDN -->
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<!-- jQuery UI CDN -->
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+<!-- JavaScript -->
+<script src="./js/main.js"></script> 
+<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+<!-- CSS -->
+  <!-- Reset CSS -->
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet"/> 
+  <!-- Main CSS-->
+  <link rel="stylesheet" href="./css/main.css"> 
+<!-- CARD -->
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Tatsuya Yamamoto">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="img/home_hero.jpg">
+  <meta property="twitter:card" 
+  content="summary">
+  <meta name="twitter:site" content="@">
+  <meta property="og:site_name" content="Tatsuya Yamamoto">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="fb:app_id" content="">
+<!-- Fonts & Icons -->
+  <link rel="icon" href="favicon.ico" sizes="16x16" type="image/icon/vnd.microsoft.icon">
+  <link rel="icon" href="favicon.ico" sizes="32x32" type="image/icon/vnd.microsoft.icon">
+  <link rel="icon" href="favicon.ico" sizes="48x48" type="image/icon/vnd.microsoft.icon">
+  <link rel="icon" href="favicon.ico" sizes="62x62" type="image/icon/vnd.microsoft.icon"> 
+  <!-- windows icon-->
+  <meta name="msapplication-TileImage" content="img/icons/windows_icon.png"> 
+  <meta name="msapplication-TileColor" content="#8A4DA5">
+  <!-- smartphone icon-->
+  <link  rel="apple-touch-icon-precomposed" href="img/icons/smart_phone_icon.png"> 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <!--FontAwesome -->
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Serif+JP&display=swap" rel="stylesheet">
+  
+<!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="./../favicon.ico">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+</head>
+<body>
+  <section class="hero">
+    <!-- hambarger menu -->
+    <button id="hambarger" class="hambarger">
+      <span class="hambarger__bar hambarger__bar1"></span>
+      <span class="hambarger__bar hambarger__bar2"></span>
+      <span class="hambarger__bar hambarger__bar3"></span>
+    </button>
+    <div class="drawer">
+      <nav class="menu-wrap">
+        <ul class="flex-container hambarger-flex-container">
+          <!-- Profile -->
+          <a href="#profile" class="hambarger__a hambarger__list--hover">
+            <li class="hambarger__list hambarger__list--hover">Profile</li>
+          </a>
+          <!-- Works -->
+          <a href="#works" class="hambarger__a">
+            <li class="hambarger__list hambarger__list--hover">Works</li>
+          </a>
+          <!-- Skills -->
+          <a href="#skills" class="hambarger__a">
+            <li class="hambarger__list hambarger__list--hover">Skills</li>
+          </a>
+          <!-- Contact -->
+          <a href="#contact" class="hambarger__a">
+            <li class="hambarger__list hambarger__list--hover">Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+    <p class="hero__title"></p>
+  </section>
+
+  <section id="profile" class="profile">
+    <h1 class="profile__title">Profile</h1>
+      <div class="profile__desc">
+       <p>Tatsuya Yamamoto</p>
+       <p>26 May, 1988</p>
+       <p></p>
+      </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h1 class="skills__title">Skills</h1>
+    <ul>
+      <li class="skills__list">HTML</li>
+      <li class="skills__list">CSS</li>
+      <li class="skills__list">JavaScript</li>
+      <li class="skills__list">jQuery</li>
+      <li class="skills__list">PHP</li>
+      <li class="skills__list">MySQL</li>
+      <li class="skills__list">Git</li>
+      <li class="skills__list">AWS</li>
+    </ul>
+  </section>
+  
+  <section id="works" class="work">
+    <h1 class="work__title">Works</h1>
+    <div class="flex-container flex-container--work">
+      <div class="work-img-wrap">
+          <img src="./images/corange.png" alt="" class="work__img">
+          <a href="http://corange.work" target="_blank">
+            <div class="work-img-cover">
+              <p class="work-title">Corange</p>
+            </div>
+          </a>
+      </div>
+      <div class="work-img-wrap">
+          <img src="./images/reluxuriest.png" alt="" class="work__img">
+          <a href="https://fromscratch123.github.io/Reluxuriest/" target="_blank">
+            <div class="work-img-cover">
+              <p class="work-title">Reluxuriest</p>
+            </div>
+          </a>
+      </div>
+      <div class="work-img-wrap">
+          <img src="./images/ship_service.png" alt="" class="work__img">
+          <a href="https://fromscratch123.github.io/-Ship-Service-Co.-Ltd/index.html" target="_blank">
+            <div class="work-img-cover">
+              <p class="work-title">Ship Service Co.,Ltd</p>
+            </div>
+          </a>
+      </div>
+      <div class="work-img-wrap">
+          <img src="./images/negotiator.png" alt="" class="work__img">
+          <a href="https://fromscratch-negotiator.herokuapp.com/" target="_blank">
+            <div class="work-img-cover">
+              <p class="work-title">Negotiator</p>
+            </div>
+          </a>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <p  class="mail">
+      <button class="mail__btn"><a href=":hctarcsmorf&#64;gmail.com" class="mail__a">Contact</a></button>
+    </p>
+  </section>
+  <footer class="footer">
+    <p class=footer__text>&copy; 2020 Tatsuya Yamamoto All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
