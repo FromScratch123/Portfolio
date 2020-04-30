@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" 
+  content="">
+  <meta rel="canonical" href="">
+  <title>Tatsuya Yamamoto</title>
+<!-- jQuery CDN -->
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<!-- jQuery UI CDN -->
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+<!-- JavaScript -->
+<script src="./../js/main.js"></script> 
+<script src="./../js/ship-service.js"></script> 
+<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+<!-- CSS -->
+  <!-- Reset CSS -->
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet"/> 
+  <!-- CSS -->
+  <link rel="stylesheet" href="./../css/main.css"> 
+  <link rel="stylesheet" href="./../css/work.css"> 
+<!-- CARD -->
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Tatsuya Yamamoto">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="img/home_hero.jpg">
+  <meta property="twitter:card" 
+  content="summary">
+  <meta name="twitter:site" content="@">
+  <meta property="og:site_name" content="Tatsuya Yamamoto">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="fb:app_id" content="">
+<!-- Fonts & Icons -->
+  <link rel="icon" href="favicon.ico" sizes="16x16" type="image/icon/vnd.microsoft.icon">
+  <link rel="icon" href="favicon.ico" sizes="32x32" type="image/icon/vnd.microsoft.icon">
+  <link rel="icon" href="favicon.ico" sizes="48x48" type="image/icon/vnd.microsoft.icon">
+  <link rel="icon" href="favicon.ico" sizes="62x62" type="image/icon/vnd.microsoft.icon"> 
+  <!-- windows icon-->
+  <meta name="msapplication-TileImage" content="img/icons/windows_icon.png"> 
+  <meta name="msapplication-TileColor" content="#8A4DA5">
+  <!-- smartphone icon-->
+  <link  rel="apple-touch-icon-precomposed" href="img/icons/smart_phone_icon.png"> 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <!--FontAwesome -->
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> 
+  
+<!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="./../favicon.ico">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+</head>
+<body>
+  <section class="hero">
+     <!-- hambarger menu -->
+     <button id="hambarger" class="hambarger">
+      <span class="hambarger__bar hambarger__bar1"></span>
+      <span class="hambarger__bar hambarger__bar2"></span>
+      <span class="hambarger__bar hambarger__bar3"></span>
+    </button>
+    <div class="drawer">
+      <nav class="menu-wrap">
+        <ul class="flex-container hambarger-flex-container">
+          <!-- Home -->
+          <a href="./../index.html" class="hambarger__a hambarger__list--hover">
+            <li class="hambarger__list hambarger__list--hover">Home</li>
+          </a>
+          <!-- Profile -->
+          <a href="./../index.html#profile" class="hambarger__a hambarger__list--hover">
+            <li class="hambarger__list hambarger__list--hover">Profile</li>
+          </a>
+          <!-- Works -->
+          <a href="./../index.html#works" class="hambarger__a">
+            <li class="hambarger__list hambarger__list--hover">Works</li>
+          </a>
+          <!-- Skills -->
+          <a href="./../index.html#skills" class="hambarger__a">
+            <li class="hambarger__list hambarger__list--hover">Skills</li>
+          </a>
+          <!-- Contact -->
+          <a href="#contact" class="hambarger__a">
+            <li class="hambarger__list hambarger__list--hover">Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+
+
+      <div class="hero__img-wrap">
+        <img id="main" class="hero__img">
+
+      </div>
+  
+      <nav class="slide__nav">
+        <ul class="slide__ul">
+          <li id="prev" class="slide__li slide__nav--left">&lt;</li>
+          <li id="play" class="slide__li slide__nav--play">Play</li>
+          <li id="next" class="slide__li slide__nav--right">&gt;</li>
+        </ul>
+      </nav>
+  
+      <ul class="thumbnails"></ul>
+
+
+     </section>
+    
+  <section class="details">
+      <h1 class="details__title"><a href="https://fromscratch123.github.io/-Ship-Service-Co.-Ltd/" class="details__a" target="_blank">Ship Service Co.,Ltd</a></h1>
+        <p>
+          <i class="fas fa-external-link-alt"></i>
+          <a href="hhttps://fromscratch123.github.io/-Ship-Service-Co.-Ltd/" class="details__a" target="_blank">https://fromscratch123.github.io/-Ship-Service-Co.-Ltd/</a>
+        </p>
+        <p>
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/FromScratch123/-Ship-Service-Co.-Ltd" class="details__a" target="_blank">https://github.com/FromScratch123/-Ship-Service-Co.-Ltd</a>
+        </p>
+        <h2>概要</h2>
+        <p class="details__desc">練習用にWEB上の素材を参考にしてアウトプットした作品です。船舶関係のコーポーレートサイトです。
+          HTML/CSSを深く理解する為に制作しました。</p>
+
+        <h2>使用言語</h2>
+        <ul class="flex-container flex-container--lang">
+          <li class="details__lang-li"><i class="fas fa-code"></i> HTML CSS</li>
+        </ul>
+  </section>
+  <section id="contact" class="contact">
+    <p  class="mail">
+      <button class="mail__btn"><a href="mailto:hctarcsmorf&#64;gmail.com" class="mail__a">Contact</a></button>
+    </p>
+  </section>
+  <footer class="footer">
+    <p class=footer__text>&copy; 2020 Tatsuya Yamamoto All rights reserved.</p>
+  </footer>
+</body>
+</html>

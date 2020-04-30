@@ -150,21 +150,39 @@ button {
   width: 70%;
   margin: 0 auto 80px;
   position: relative;
+  text-align: center;
 }
 
 .profile__title {
   margin-bottom: 40px;
   text-align: center;
-  font-size: 2.4em;
+  font-size: 3.0em;
 }
 
-.profile__desc{
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
+.profile__p{
   font-size: 1.8em;
 }
 
+.profile__btn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  box-shadow: 0 4px 8px #3c3c3c;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.profile__btn:hover {
+  transform: translateY(4px);
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.profile__a {
+  font-family: 'Dancing Script', cursive, 'Noto Serif JP', serif;
+  font-size: 1.2em;
+}
 /* =========================
           SKILLS
 ========================= */
@@ -177,14 +195,26 @@ button {
 
 .skills__title {
   margin-bottom: 40px;
-  font-size: 2.4em;
+  font-size: 3.0em;
 }
 
-.skills__list {
-  margin: 8px;
+.flex-container--skills {
+  justify-content: space-around;
   font-size: 1.8em;
 }
 
+.skills__li {
+  margin-bottom: 16px;
+}
+
+.skills__li:not(:last-child) {
+  margin-right: 16px;
+}
+
+.skills__icon {
+  width: 16px;
+  height: auto;
+}
 /* =========================
           WORKS
 ========================= */
@@ -197,7 +227,7 @@ button {
 .work__title {
   margin-bottom: 40px;
   text-align: center;
-  font-size: 2.4em;
+  font-size: 3.0em;
 }
 
 .flex-container--work {
@@ -291,7 +321,7 @@ button {
 .mail__btn:hover {
   transform: translateY(4px);
   box-shadow: none;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
 .mail__a {

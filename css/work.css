@@ -1,0 +1,124 @@
+/* =========================
+          HERO
+========================= */
+
+.hero {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.hero__name {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.hero__img-wrap {
+  width: 70%;
+  margin: 0 auto 8px;
+  box-shadow: 0 4px 8px #3c3c3c;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+  object-fit: cover;
+}
+
+.slide__ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slide__li {
+  border: 1px solid #ddd;
+  border-radius:  4px;
+  font-size: 12px;
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide__li:hover {
+  background: #f8f8f8;
+}
+
+#play {
+  width: 140px;
+}
+
+#next,
+#prev {
+  width: 60px;
+}
+
+.slide__nav {
+  margin-bottom: 8px;
+}
+
+.slide__ul {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.thumbnails li {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.thumbnails li:hover,
+.thumbnails li.current {
+  opacity: 1;
+}
+
+.thumbnails img {
+  width: 100%;
+  height: 80px;
+  object-fit: contain;
+}
+
+/* =========================
+          DETAILS
+========================= */
+
+.details {
+  width: 70%;
+  height: auto;
+  margin: 0 auto 80px;
+  font-size: 1.8em;
+}
+
+.details__a {
+  color: #333333;
+}
+
+.details__desc {
+  white-space: pre-line;
+}
+
+.flex-container--lang {
+  justify-content: flex-start;
+}
+
+.details__lang-li:not(:last-child) {
+  margin-right: 16px;
+}

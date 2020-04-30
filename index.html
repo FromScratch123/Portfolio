@@ -52,7 +52,7 @@ crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Oswald|Sawarabi+Gothic&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
   <!--FontAwesome -->
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Serif+JP&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> 
   
 <!-- favicon -->
   <link rel="icon" type="image/x-icon" href="./../favicon.ico">
@@ -93,24 +93,26 @@ crossorigin="anonymous"></script>
 
   <section id="profile" class="profile">
     <h1 class="profile__title">Profile</h1>
-      <div class="profile__desc">
-       <p>Tatsuya Yamamoto</p>
-       <p>26 May, 1988</p>
-       <p></p>
-      </div>
+    <p class="profile__p">山本 達也</p>
+    <p class="profile__p">1988年5月26日生まれ</p>
+    <p class="profile__p">兵庫県出身</p>
+    <p  class="profile__p">
+      <button class="profile__btn"><a href="./public_html/profile.html" class="profile__a">Details</a></button>
+    </p>
   </section>
 
   <section id="skills" class="skills">
     <h1 class="skills__title">Skills</h1>
-    <ul>
-      <li class="skills__list">HTML</li>
-      <li class="skills__list">CSS</li>
-      <li class="skills__list">JavaScript</li>
-      <li class="skills__list">jQuery</li>
-      <li class="skills__list">PHP</li>
-      <li class="skills__list">MySQL</li>
-      <li class="skills__list">Git</li>
-      <li class="skills__list">AWS</li>
+    <ul class="flex-container flex-container--skills">
+      <li class="skills__li"><i class="fab fa-html5"></i> HTML</li>
+      <li class="skills__li"><i class="fab fa-css3-alt"></i> CSS</li>
+      <li class="skills__li"><i class="fab fa-js"></i> JavaScript</li>
+      <li class="skills__li"><img src="./images/logo/jquery.png" class="skills__icon" alt=""> jQuery</li>
+      <li class="skills__li"><i class="fab fa-php"></i> PHP</li>
+      <li class="skills__li"><img src="./images/logo/mysql.png" class="skills__icon" alt=""> MySQL</li>
+      <li class="skills__li"><i class="fas fa-code-branch"></i> Git</li>
+      <li class="skills__li"><img src="./images/logo/aws.png" class="skills__icon" alt=""> AWS</li>
+      <li class="skills__li"><img src="./images/logo/heroku.png" class="skills__icon" alt=""> Heroku</li>
     </ul>
   </section>
   
@@ -119,7 +121,7 @@ crossorigin="anonymous"></script>
     <div class="flex-container flex-container--work">
       <div class="work-img-wrap">
           <img src="./images/corange.png" alt="" class="work__img">
-          <a href="http://corange.work" target="_blank">
+          <a href="./public_html/corange.html">
             <div class="work-img-cover">
               <p class="work-title">Corange</p>
             </div>
@@ -127,7 +129,7 @@ crossorigin="anonymous"></script>
       </div>
       <div class="work-img-wrap">
           <img src="./images/reluxuriest.png" alt="" class="work__img">
-          <a href="https://fromscratch123.github.io/Reluxuriest/" target="_blank">
+          <a href="./public_html/reluxuriest.html">
             <div class="work-img-cover">
               <p class="work-title">Reluxuriest</p>
             </div>
@@ -135,7 +137,7 @@ crossorigin="anonymous"></script>
       </div>
       <div class="work-img-wrap">
           <img src="./images/ship_service.png" alt="" class="work__img">
-          <a href="https://fromscratch123.github.io/-Ship-Service-Co.-Ltd/index.html" target="_blank">
+          <a href="./public_html/ship-service.html">
             <div class="work-img-cover">
               <p class="work-title">Ship Service Co.,Ltd</p>
             </div>
@@ -143,7 +145,7 @@ crossorigin="anonymous"></script>
       </div>
       <div class="work-img-wrap">
           <img src="./images/negotiator.png" alt="" class="work__img">
-          <a href="https://fromscratch-negotiator.herokuapp.com/" target="_blank">
+          <a href="./public_html/negotiator.html">
             <div class="work-img-cover">
               <p class="work-title">Negotiator</p>
             </div>
@@ -157,7 +159,7 @@ crossorigin="anonymous"></script>
     </p>
   </section>
   <footer class="footer">
-    <p class=footer__text>&copy; 2020 Tatsuya Yamamoto All Rights Reserved.</p>
+    <p class=footer__text>&copy; 2020 Tatsuya Yamamoto All rights reserved.</p>
   </footer>
 </body>
 </html>
